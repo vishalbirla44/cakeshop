@@ -1,0 +1,203 @@
+@media screen and (max-width:1200px){
+    .section-p1 {
+        padding: 20px 20vw
+    }
+    #banner button{
+        bottom: 5vh;
+        right: 13%;
+    }
+    #sm-banner{
+        padding: 25px 12px;
+    }
+    #sm-banner .banner-box{
+        min-width: 43%;
+
+    }
+    #news{
+        width: 100%;
+    }
+}
+@media screen and (max-width:991px){
+    .section-p1 {
+        padding: 10px 13vw;
+    }
+     #product1 .pro{
+        min-width: 238px;
+     }
+     #banner{
+        background-position: right;
+        
+     }
+     #banner button{
+        right: 16vw;
+     }
+     #sm-banner{
+        padding: 25px 12px;
+    }
+    #sm-banner .banner-box{
+        min-width: 40%;}
+        #news .newsfrom{
+            width: 35%;
+        }
+}
+
+@media screen and (max-width:767px){
+    .home-contenet{
+        padding: 40px 50px;
+    }
+    .home-contenet button{
+        padding: 14px 36px 14px 65px;
+    }
+    .fresh-text{
+        height: 6vh;
+    }
+    .fresh-text h1{
+        font-size: 36px;
+    }
+    .proj1 {
+        width: 41%;
+        height: 39%;
+    }
+    .proj2 {
+        width: 41%;
+        height: 39%;
+    }
+    .proj3 {
+        width: 41%;
+        height: 39%;
+    }
+    .proj4 {
+        width: 41%;
+        height: 39%;
+    }
+    #feture{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #feture .fe-box {
+        width: 130px;
+        padding: 20px 15px;
+    }
+    #product1 h2{
+        font-size: 42px;
+line-height: 32px;
+    }
+    #product1 .pro-contener{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #banner button{
+        right: 34vw;
+    }
+    #sm-banner{
+        padding: 25px 8px;
+        justify-content: center;
+    }
+    #sm-banner .banner-box{
+        margin: 5px;
+    }
+    #news{
+        flex-direction: column;
+        height: 25vh;
+    }
+    #news .newsfrom{
+        width: 70%;
+    }
+    }
+    @media screen and (max-width:700px){
+        #prodetials{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0px;
+
+        }
+        #prodetials .single-pro-image{
+            width: 80%;
+        }
+        .small-img-group{
+            margin: 0px;
+        }
+        #prodetials .single-pro-detial{
+            width: 80%;
+        }
+        .small-img-col{
+            margin: 4px;
+        }
+    }
+/**************** vlog responsive  *************/
+    @media screen and (max-width:767px){
+        #blog{
+          padding: 100px 50px 0px 50px;
+        }
+    }
+    @media screen and (max-width:479px){
+        #blog{
+            padding: 50px 20px 0px 20px;
+        } 
+        #blog .blog-box{
+            align-items: flex-start;
+            position: relative;
+            padding-bottom: 90px;
+            flex-direction: column;
+        }
+        #blog .blog-img{
+            width: 100%;
+            margin-right: 0px;
+          }
+          #blog .blog-deteal{
+            width: 100%;
+          }
+        }
+@media screen and (max-width:479px){
+    #downlode img{
+    width: 97%;
+    margin: 8px;
+    }
+}
+
+@media (max-width:799px){
+#from-deteals{
+    padding: 40px;
+}
+#from-deteals form{
+    width: 50%;
+}
+
+    
+}
+@media (max-width:477px){
+    #contect-deteals{
+        flex-direction: column;
+    }
+    #contect-deteals .deteals{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contect-deteals .map{
+        width: 100%;
+    }
+    #from-deteals{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #from-deteals form{
+        width: 100%;
+        margin-bottom: 30px; 
+    }
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        width: 98%;
+    }
+    #Subtotal{
+        width: 98%;
+        padding: 20px;
+    }
+}
+    
+    
